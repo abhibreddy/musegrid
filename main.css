@@ -1,0 +1,97 @@
+body {
+ background-color:#1C1A1A;
+ height: 810px;
+}
+
+.boxgrid {
+ border-radius:5px;
+ display: inline-block;
+ background-color: whitesmoke;
+ color:black;
+ font-family: Akkurat;
+ padding: 20px 20px 20px 20px;
+ border: 2px solid white;
+ height: 96px;
+ width: 96px;
+ top:5%;
+ left: 33%;
+ position: relative;
+ margin: 10px 10px 10px 10px;
+ text-align: center;
+}
+
+button.boxgrid {
+ height: 140px;
+ width: 140px;
+}
+
+.boxgrid:hover{
+ background-color: azure;
+}
+
+@font-face {
+ font-family: Akkurat;
+ src: url(Akkurat.ttf);
+}
+
+button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.artist-top {
+ display: inline-block;
+ left:34.4%;
+ position:relative;
+ height: 96px;
+ width: 96px;
+ margin: 10px 50px 0px 10px;
+ border: 2px solid black;
+ border-radius: 5px;
+ object-fit:cover;
+}
+
+.artist-top img{
+ border-radius: 5px;
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.artist-side {
+ display: flex;
+ left: 22%;
+ top:-52.5%;
+ position: relative;
+ height: 96px;
+ width: 96px;
+ margin: 5px 50px 63px 10px;
+ border: 2px solid black;
+ border-radius: 5px;
+ object-fit: cover;
+}
+
+.artist-side img {
+ border-radius: 5px;
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.artist-text {
+ display: inline-block;
+ color:whitesmoke;
+ position: absolute;
+ text-align: center;
+ left:8%;
+ top:115%;
+}
+
+.reveal {
+  position: absolute;
+  left: 8%;
+  top: 8%;
+  height: 120;
+  width: 120;
+  object-fit: cover;
+  opacity: 40%;
+}
